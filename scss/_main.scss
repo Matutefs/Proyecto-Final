@@ -92,29 +92,33 @@ body {
 .title {font-weight: bold}
 
 .formulario {
-  height: 30rem;
+  height: 35rem;
   margin-top: 8rem;
-  margin-bottom: 10rem;
-  width: 100%;
+  margin-bottom: 5rem;
+  width: 90%;
   padding-right: 3rem;
   padding-left: 3rem;
+  background-color: #e6e6e6;
+  border: 1px solid black;
+  margin-left: 1rem;
 }
-@media (max-width: 570px) {
+@media (max-width: 768px) {
   #formularios {
     padding-left: 5rem;
     padding-right: 5rem;
-    width: 25rem;
-    height: 36rem;
+    width: 90%;
+    height: 40rem;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 470px) {
   #formularios {
     padding-left: 5rem;
     padding-right: 5rem;
-    width: 22rem;
-    height: 36rem;
+    width: 90%;
+    height: 46rem;
   }
 }
+
 
 @media (max-width: 1120px) {
   #informacion {
