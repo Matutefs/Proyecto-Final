@@ -64,6 +64,7 @@ body {
   margin-right: 100px;
   margin-left: 100px;
   font-weight: map-get($fuentes, regular);
+  border: 2px solid black;
 }
 
 #informacion {
@@ -74,7 +75,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 5rem
+  margin-top: 5rem;
+  margin-bottom: 7rem;
 }
 
 .title {font-weight: bold}
@@ -154,7 +156,7 @@ body {
     width: 100%;
     max-width: 1200px;
     margin-top: 7rem;
-    margin-bottom: 7rem;
+    margin-bottom: 15rem;
     padding-left: 1rem;
     padding-right:1rem;
     p { font-size: 28px;
