@@ -92,15 +92,19 @@ body {
 .title {font-weight: bold}
 
 .formulario {
-  height: 35rem;
-  margin-top: 8rem;
-  margin-bottom: 5rem;
-  width: 90%;
-  padding-right: 3rem;
-  padding-left: 3rem;
-  background-color: #e6e6e6;
-  border: 1px solid black;
-  margin-left: 1rem;
+    color:#0dcaf0;
+    height: 35rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+    width: 90%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background-color: #39343499;
+    border: 1px solid black;
+    margin-left: 1rem;
+    .title{ color:#ffff;
+            padding-top: 6px;
+}
 }
 @media (max-width: 768px) {
   #formularios {
